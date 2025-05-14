@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	var a int = 10
+	fmt.Printf("%T %v %d %b\n", a, a, a, a)
+
+	var b int = 077
+	fmt.Printf("%T %v %d %b\n", b, b, b, b)
+	var c int = 0xff
+	
+}
